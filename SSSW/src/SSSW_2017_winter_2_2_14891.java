@@ -38,6 +38,7 @@ public class SSSW_2017_winter_2_2_14891 {
             result += (settings[i].charAt(0) - '0') * Math.pow(2, i); // 점수 계산. N극인 경우 settings값이 0이므로 0이 더해진다.
         }
         System.out.println(result);
+        sc.close();
     }
 
     static void change_setting(String[] s, int num, int vector) {

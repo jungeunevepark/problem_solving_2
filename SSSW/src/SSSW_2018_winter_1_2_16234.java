@@ -40,6 +40,7 @@ public class SSSW_2018_winter_1_2_16234 {
             result++;
         }
         System.out.println(result);
+        sc.close();
     }
 
     static int migration(int[][] A, int L, int R) {

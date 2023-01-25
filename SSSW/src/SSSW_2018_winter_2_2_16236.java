@@ -54,6 +54,7 @@ public class SSSW_2018_winter_2_2_16236 {
             } // 먹은 물고기의 수와 아기상어의 크기가 같으면 아기상어 크기를 키우고 물고기의 수를 0으로 바꾼다.
         }
         System.out.println(result);
+        sc.close();
     }
 
     static int find(int x, int y, int nx, int ny, int N, int size, int[][] map) {
