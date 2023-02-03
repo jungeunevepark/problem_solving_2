@@ -44,8 +44,6 @@ public class SSSW_2018_summer_1_2_15684 {
             return;
         }
         for (int i = x; i < H; i++) {
-            if (i == x && y < y)
-                continue;
             r: for (int j = 0; j < N - 1; j++) {
                 if (ladder[i][j] == 1)
                     continue r;
