@@ -1,12 +1,6 @@
 import java.util.*;
 import java.io.*;
 
-class Pipe {
-    public int x;
-    public int y;
-    public int d;
-}
-
 public class SSSW_A_2_17406 {
     static int N;
     static int[][] room;
